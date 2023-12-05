@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mendoza/static/css/main.0a90db14.css",
+    "main.js": "/mendoza/static/js/main.a338efc9.js",
+    "static/js/787.d8324052.chunk.js": "/mendoza/static/js/787.d8324052.chunk.js",
+    "static/media/technology.jpg": "/mendoza/static/media/technology.a89375910259bb63a2ac.jpg",
+    "static/media/City.jpg": "/mendoza/static/media/City.0e6357499227a41e3a6a.jpg",
+    "static/media/design.jpg": "/mendoza/static/media/design.dec4677c161a79c0980c.jpg",
+    "static/media/business.jpg": "/mendoza/static/media/business.931975727b7e25432bbb.jpg",
+    "static/media/socmed.jpg": "/mendoza/static/media/socmed.1bf5bffcf972e7e3cf3a.jpg",
+    "static/media/Web.jpg": "/mendoza/static/media/Web.e606a66e2a1e9da6eda7.jpg",
+    "index.html": "/mendoza/index.html",
+    "main.0a90db14.css.map": "/mendoza/static/css/main.0a90db14.css.map",
+    "main.a338efc9.js.map": "/mendoza/static/js/main.a338efc9.js.map",
+    "787.d8324052.chunk.js.map": "/mendoza/static/js/787.d8324052.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a90db14.css",
+    "static/js/main.a338efc9.js"
+  ]
+}
