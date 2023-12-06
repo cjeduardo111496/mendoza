@@ -3,17 +3,17 @@ import React from "react";
 function Contact() {
     return(
         <div>
-             <section className="py-4 bg-info">
+             <section className="py-2 bg-light">
                 <div className="container">
                     <div className="row"> 
                         <div className="col-md-4 my-auto">
                             <h4>Contact Us</h4>
                         </div>
-                        <div className="col-md-8 my-auto">
+                        {/* <div className="col-md-8 my-auto">
                             <h6 className="float-end">
                                 Home / Contact Us
                             </h6>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

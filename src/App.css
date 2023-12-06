@@ -34,8 +34,21 @@ p{
     color: gray;
 }
 
+.button_position {
+    position: absolute;
+    left:40%;
+    top: 30%;
+    opacity: 65%;
+  }
+
+.navbar a:hover{
+    color: white !important;
+}
+
 @media screen and (max-width: 576px) { 
     .navbar-toggler-icon {
         background-color: #f2f2f2 !important;
     }
+
+    
 }

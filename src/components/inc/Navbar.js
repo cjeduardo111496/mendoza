@@ -18,12 +18,12 @@ function Navbar() {
                                 </button>
 
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                                         <li className="nav-item">
                                             <Link to="/home" className="nav-link active text-warning">Home</Link>
                                        </li>
                                         <li className="nav-item">
-                                            <Link to="/about" className="nav-link active text-warning">About Us</Link>
+                                            <Link to="/about" className="nav-link active text-warning">About</Link>
                                        </li>
                                        <li className="nav-item">
                                             <Link to="/contact" className="nav-link active text-warning">Contact Us</Link>

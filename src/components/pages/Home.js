@@ -39,40 +39,40 @@ function Home() {
                         </div>
                         <div className="col-md-4">
                             <div className="card shadow">
-                                <img src={Service1} classname="w-100 border-bottom" alt="Services"/>    
+                                <img src={Service1} className="w-100 border-bottom" alt="Services"/> 
                                 <div className="card-body">
                                     <h6>Services 1</h6>
                                     <div className="underline"></div>
                                     <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                                     </p>
-                                    <Link to="/services" className="btn btn-link">read more</Link>
+                                    <Link to="/services" target="_blank" class="btn btn-warning button_position" role="button">Read more</Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="card shadow">
-                                <img src={Service2} classname="w-100 border-bottom" alt="Services"/>    
+                                <img src={Service2} className="w-100 border-bottom" alt="Services"/>    
                                 <div className="card-body">
                                     <h6>Services 2</h6>
                                     <div className="underline"></div>
                                     <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                                     </p>
-                                    <Link to="/services" className="btn btn-link">read more</Link>
+                                    <Link to="/services" target="_blank" class="btn btn-warning button_position" role="button">Read more</Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="card shadow">
-                                <img src={Service3} classname="w-100 border-bottom" alt="Services"/>    
+                                <img src={Service3} className="w-100 border-bottom" alt="Services"/>    
                                 <div className="card-body">
                                     <h6>Services 3</h6>
                                     <div className="underline"></div>
                                     <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                                     </p>
-                                    <Link to="/services" className="btn btn-link">read more</Link>
+                                    <Link to="/services" target="_blank" class="btn btn-warning button_position" role="button">Read more</Link>
                                 </div>
                             </div>
                         </div>
