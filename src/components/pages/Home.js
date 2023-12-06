@@ -46,7 +46,7 @@ function Home() {
                                     <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                                     </p>
-                                    <Link to="/services" target="_blank" class="btn btn-warning button_position" role="button">Read more</Link>
+                                    <Link to="/services" target="_blank" className="btn btn-warning button_position" role="button">Read more</Link>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ function Home() {
                                     <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                                     </p>
-                                    <Link to="/services" target="_blank" class="btn btn-warning button_position" role="button">Read more</Link>
+                                    <Link to="/services" target="_blank" className="btn btn-warning button_position" role="button">Read more</Link>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ function Home() {
                                     <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                                     </p>
-                                    <Link to="/services" target="_blank" class="btn btn-warning button_position" role="button">Read more</Link>
+                                    <Link to="/services" target="_blank" className="btn btn-warning button_position" role="button">Read more</Link>
                                 </div>
                             </div>
                         </div>
