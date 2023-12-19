@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import {Link} from 'react-router-dom';
 
 function Navbar() {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 300) {
+            setNavbar(true);
+        }
+        else {
+            setNavbar(false);
+        }
+    };
+
+    window.addEventListener('scroll', changeBackground);
+
     return(
-        <div className="navbar-dark bg-dark shadow">
+        <nav className={navbar ? 'navbar-dark active' : 'navbar-dark'}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         
-                        <nav className="navbar navbar-expand-lg">
+                        <div className="navbar navbar-expand-lg">
                             <div className="container-fluid">
-
+                                {/* <img src={Img} className="d-block img-fluid" alt="..."/> */}
                                 <Link to="/" className="navbar-brand text-warning">Mendoza Brother's</Link>
 
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,12 +45,12 @@ function Navbar() {
                                     </ul>
                                 </div>
                             </div>
-                        </nav>
+                        </div>
 
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 }
 
